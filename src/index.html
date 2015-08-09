@@ -1,0 +1,37 @@
+<!doctype html>
+<html ng-app="candyshop">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Venue Hall</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/candyshop.css">
+	<link rel="stylesheet" href="assets/css/venue.css">
+</head>
+<body ng-controller="MainCtrl as main">
+	<h1>Hello World, I'm at index!</h1>
+	<a ui-sref="venues" class="btn btn-primary">Venues!</a>
+	<div ui-view class="content"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.js"></script>
+    <script src="vendor/angular-ui-router.min.js"></script>
+    <script src="app/candyshop.js"></script> 
+    <script src="app/common/common.js"></script> 
+    <script src="app/venues/venue-controller.js"></script>
+    <script src="app/main/main-controller.js"></script>
+</body>
+</html>

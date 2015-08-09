@@ -1,0 +1,22 @@
+{
+  "name": "venuehall",
+  "version": "0.0.0",
+  "description": "AngularJS venuehall",
+  "main": "index.js",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://https://github.com/olavisau/angular-venuehall.git"
+  },
+  "author": {
+    "name": "Olavi Sau",
+    "email": "olavisau@gmail.com",
+    "url": "https://github.com/olavisau/"
+  },
+  "bugs": {
+    "url": "https://github.com/olavisau/angular-venuehall/issues"
+  },
+
+
+}
